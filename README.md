@@ -16,6 +16,13 @@ In your UICollectionViewController, define something like:
     ...
   }
 ```  
+
+You'll also need a list of weather icons, as used bye the line:
+```
+  s.weatherImageView.image = pendoImage("Weather/\(icon)")
+```
+where pendoImage("Weather/\(icon)") is loading the corresponding image file
+
 # Helpers
 There are some helpers used in the code, and here are the bodies: (let me know if I missed any)
 
